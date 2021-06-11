@@ -1,0 +1,70 @@
+.contacto {
+  padding-bottom: 80px;
+  background-color: black;
+  font-family: "Poppins";
+  color: white;
+}
+
+@media (min-width: 798px) {
+  .contacto {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding-top: 180px;
+  }
+}
+
+.titulo-cont {
+  display: flex;
+  justify-content: center;
+}
+@media (min-width: 798px) {
+  .titulo-cont {
+    justify-self: end;
+  }
+}
+
+.titulo {
+  margin-top: 82px;
+  margin-bottom: 27px;
+  font-size: 32px;
+}
+@media (min-width: 798px) {
+  .titulo {
+    margin: 0;
+  }
+}
+
+.contact-form {
+  display: grid;
+  justify-content: center;
+  gap: 27px;
+}
+
+.contact-form__label {
+  font-size: 13px;
+  display: grid;
+  gap: 4px;
+}
+
+.contact-form__input-text {
+  height: 45px;
+  width: 310px;
+}
+
+.contact-form__input-textarea {
+  height: 113px;
+  width: 310px;
+  resize: none;
+}
+
+.contact-form__btn {
+  height: 45px;
+  width: 310px;
+  background-color: #2c2c2c;
+  color: white;
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+}

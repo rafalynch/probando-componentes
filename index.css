@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  background-color: #de4545;
+  height: 90px;
+}
+
+.home {
+  height: 569px;
+  background-color: #5fe0c9;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+.home__titulo {
+  margin: 0;
+  font-family: "poppins";
+}
